@@ -89,7 +89,7 @@ header
 
 
 /* newCollectionBlock */
-.newCollectionBlock
+.seasonsCollectionBlock
 {
     height: 730px;
     display: flex;
@@ -118,12 +118,10 @@ header
     border: 1px solid #FFFFFF;
 }
 
-
-
 /* newCollectionBlock */
 .newCollectionBlock
 {
-    background: url();          /*Добавить фоновую картинку*/
+    background: url() no-repeat;          /*Добавить фоновую картинку*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,3 +157,52 @@ header
 }
 
 
+
+/* oldCollectionBlock */
+.oldCollectionBlock
+{
+    height: 600px;
+    display: flex;
+}
+
+.oldCollectionImg
+{
+    background: url() no-repeat;          /*Добавить фоновую картинку*/
+    width: 936px;
+}
+
+.oldCollectionArticle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oldCollectionHeader
+{
+    font-family: 'PlayfairDisplay';
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.oldCollectionHorLine
+{
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.oldCollectionBtn
+{
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    width: 242px;
+    height: 23px;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
