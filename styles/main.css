@@ -1,29 +1,31 @@
-@font-face{
+@font-face {
     font-family: 'PT Sans';
     src: url(fonts/PTSans-Regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'PlayfairDisplay';
-    src: url(fonts/);
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PostNoBillsJaffna';
+    src: url(fonts/PostNoBillsJaffna-Regular.ttf);
 }
 
 
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header
-{
+header {
     /* background: #000000; */
 }
 
-.signAndSchedule
-{
+.signAndSchedule {
     background: #000000;
     height: 44px;
     display: flex;
@@ -32,119 +34,225 @@ header
     font-family: 'PT Sans';
 }
 
-.scheduleBlock
-{
-    color: #ffffff;
+.scheduleBlock {
     display: flex;
     align-items: center;
     font-family: 'PT Sans';
     font-size: 12px;
     line-height: 16px;
+    color: #969696;
 }
 
-.phoneNumber
-{
+.phoneNumber {
     background: url(../img/phone.png) no-repeat 0 center;
     width: 150px;
     display: flex;
     justify-content: flex-end;
 }
 
-.vetricalLine
-{
-    background: #ffffff;
+.vetricalLine {
+    background: #969696;
     width: 2px;
     height: 9px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.signInBlock
-{
-
+.signInBlock {
+    display: flex;
+    justify-content: center;
+    font-family: 'PT Sans';
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
 }
 
-.menuBlock
-{
-    background: #0F0F0F;
-    height: 80px;
-    display: flex;
-    justify-content: flex-end;
+.signIn {
+    background: url(../img/log-in.png) no-repeat 0 center;
+    width: 40px;
+    text-align: end;
+}
+
+.registerNow:hover,
+.signIn:hover {
+    cursor: pointer;
     color: #ffffff;
 }
 
+/* menuBlock */
+
+.menuBlock {
+    background: #0F0F0F url(../img/PORTEN.png) no-repeat 55px center;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+.menuList {
+    /* outline: 1px solid #FFFFFF; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: background 0.3s ease-out;
+}
+
+.menuList:hover {
+    background: #1F1F1F;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.menuBlockLike {
+    padding-left: 20px;
+    padding-right: 18px;
+}
+
+.menuBlockCabinet {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.menuBlockSetting {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.menuBlockCart {
+    background: url(../img/bx-cart.png) no-repeat center;
+    width: 55px;
+}
+
+.menuBlockCart:hover {
+    background: #1F1F1F url(../img/bx-cart.png) no-repeat center;
+    width: 55px;
+}
+
+.menuBlockSearch {
+    background: url(../img/gridicons_search.png) no-repeat center;
+    width: 55px;
+}
+
+.menuBlockSearch:hover {
+    background: #1F1F1F url(../img/gridicons_search.png) no-repeat center;
+    width: 55px;
+}
 
 
 
-.shopsOtherCitiesBlock
-{
+
+/* shopsOtherCitiesBlock */
+.shopsOtherCitiesBlock {
     background: url(../img/header-bg.png) no-repeat center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 810px;    
+    height: 810px;
 }
+
+.shopsLogo {
+    border: 4px solid #ffffff;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopsLogoHeader {
+    font-family: 'PostNoBillsJaffna';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.shopsLogoHorLine {
+    width: 179px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+}
+
+.shopsLogoText
+{
+    font-family: 'PT Sans';
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.shopsText
+{
+    width: 730px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 
 
 
 /* newCollectionBlock */
-.seasonsCollectionBlock
-{
+.seasonsCollectionBlock {
     height: 730px;
     display: flex;
 }
 
-.season2021Block
-{
+.season2021Block {
     background: #000000;
     width: 1040px;
     display: flex;
     flex-direction: column;
 }
 
-.season2021Header
-{
-    font-family: 'PlayfairDisplay';        /*Добавить Шрифт!!!*/
+.season2021Header {
+    font-family: 'PlayfairDisplay';
     color: #ffffff;
     text-transform: uppercase;
     font-size: 36px;
 }
 
-.season2021HorLine
-{
+.season2021HorLine {
     width: 120px;
     height: 0px;
     border: 1px solid #FFFFFF;
 }
 
 /* newCollectionBlock */
-.newCollectionBlock
-{
-    background: url() no-repeat;          /*Добавить фоновую картинку*/
+.newCollectionBlock {
+    background: url(../img/newCollectionBg.png) no-repeat center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
 
-.newCollectionHeader
-{
-    font-family: 'PlayfairDisplay';        /*Добавить Шрифт!!!*/
+.newCollectionHeader {
+    font-family: 'PlayfairDisplay';
     color: #ffffff;
     text-transform: uppercase;
     font-size: 36px;
 }
 
-.newCollectionHorLine
-{
+.newCollectionHorLine {
     width: 120px;
     height: 0px;
     border: 1px solid #FFFFFF;
 }
 
-.newCollectionBtn
-{
+.newCollectionBtn {
     border: 1px solid #ffffff;
     border-radius: 0;
     width: 82px;
@@ -159,42 +267,48 @@ header
 
 
 /* oldCollectionBlock */
-.oldCollectionBlock
-{
+.oldCollectionBlock {
     height: 600px;
     display: flex;
 }
 
-.oldCollectionImg
-{
-    background: url() no-repeat;          /*Добавить фоновую картинку*/
+.oldCollectionImg {
+    background: url(../img/Collection2018.png) no-repeat center;
     width: 936px;
 }
 
-.oldCollectionArticle
-{
+.oldCollectionArticle {
+    background: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.oldCollectionHeader
-{
+.oldCollectionHeader {
     font-family: 'PlayfairDisplay';
     font-size: 36px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
-.oldCollectionHorLine
-{
+.oldCollectionHorLine {
     width: 120px;
     height: 0px;
     border: 1px solid #FFFFFF;
 }
 
-.oldCollectionBtn
+.oldCollectionText
 {
+    width: 628px;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.oldCollectionBtn {
     border: 1px solid #ffffff;
     border-radius: 0;
     width: 242px;
