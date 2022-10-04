@@ -219,6 +219,7 @@ header {
 }
 
 .season2021Header {
+    margin-top: 93px;
     font-family: 'PlayfairDisplay';
     color: #ffffff;
     text-transform: uppercase;
@@ -229,11 +230,13 @@ header {
     width: 120px;
     height: 0px;
     border: 1px solid #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .season2021ImgBlock
 {
-    width: 880px;
+    width: 84.6%;
     display: flex;
     justify-content: space-between;
 }
@@ -253,6 +256,8 @@ header {
 
 .season2021Watch1Text
 {
+    width: 140px;
+    margin-top: 25px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
     line-height: 24px;
@@ -262,6 +267,11 @@ header {
 .season2021Watch1Text>span
 {
     text-transform: uppercase;
+}
+
+.season2021WatchPrice
+{
+    font-size: 16px;
 }
 
 .season2021img2
@@ -278,6 +288,8 @@ header {
 
 .season2021Watch2Text
 {
+    width: 140px;
+    margin-top: 25px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
     line-height: 24px;
@@ -298,6 +310,8 @@ header {
 
 .season2021Watch3Text
 {
+    width: 140px;
+    margin-top: 25px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
     line-height: 24px;
@@ -321,6 +335,7 @@ header {
 }
 
 .newCollectionHeader {
+    margin-bottom: 30px;
     font-family: 'PlayfairDisplay';
     color: #ffffff;
     text-transform: uppercase;
@@ -328,21 +343,25 @@ header {
 }
 
 .newCollectionHorLine {
+    border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    border: 1px solid #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .newCollectionBtn {
+    background: none;
     border: 1px solid #ffffff;
     border-radius: 0;
-    width: 82px;
-    height: 23px;
+    width: 138px;
+    height: 47px;
+    margin-bottom: 100px;
     font-family: 'PT Sans';
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 
@@ -367,6 +386,7 @@ header {
 }
 
 .oldCollectionHeader {
+    margin-top: 100px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
     text-transform: uppercase;
@@ -374,14 +394,16 @@ header {
 }
 
 .oldCollectionHorLine {
+    border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    border: 1px solid #FFFFFF;
+    margin-top: 40px;
 }
 
 .oldCollectionText
 {
     width: 628px;
+    margin-top: 40px;
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
@@ -391,14 +413,52 @@ header {
 }
 
 .oldCollectionBtn {
+    background: none;
     border: 1px solid #ffffff;
     border-radius: 0;
-    width: 242px;
-    height: 23px;
+    width: 298px;
+    height: 47px;
+    margin-top: 64px;
     font-family: 'PT Sans';
     font-size: 18px;
     line-height: 23px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+
+
+/* newArrivalsBlock */
+.newArrivalsBlock
+{
+    background: #000000;
+    height: 1289px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newArrivalsHeader
+{
+    margin-top: 120px;
+    font-family: 'PlayfairDisplay';
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.newArrivalsHorLine
+{
+    border: 1px solid #FFFFFF;
+    width: 120px;
+    height: 0px;
+    margin-top: 40px;
+}
+
+.newArrivalsPriceBlock
+{
+    width: 1109px;
+    margin-top: 81px;
 }
