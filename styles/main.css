@@ -26,7 +26,7 @@ header {
 }
 
 .signAndSchedule {
-    background: #000000;
+    background: red;
     height: 44px;
     display: flex;
     justify-content: space-between;
