@@ -180,8 +180,7 @@ body {
     border: 2px solid #FFFFFF;
 }
 
-.shopsLogoText
-{
+.shopsLogoText {
     font-family: 'PT Sans';
     font-size: 22px;
     line-height: 28px;
@@ -189,8 +188,7 @@ body {
     color: #FFFFFF;
 }
 
-.shopsText
-{
+.shopsText {
     width: 730px;
     font-family: 'PT Sans';
     font-size: 16px;
@@ -234,28 +232,24 @@ body {
     margin-bottom: 50px;
 }
 
-.season2021ImgBlock
-{
+.season2021ImgBlock {
     width: 84.6%;
     display: flex;
     justify-content: space-between;
 }
 
-.season2021img1
-{
+.season2021img1 {
     display: flex;
     flex-direction: column;
 }
 
-.season2021Watch1
-{
+.season2021Watch1 {
     background: #191B1C url(../img/62050\ 1.png) no-repeat center;
     width: 260px;
     height: 325px;
 }
 
-.season2021Watch1Text
-{
+.season2021Watch1Text {
     width: 140px;
     margin-top: 25px;
     font-family: 'PlayfairDisplay';
@@ -264,31 +258,27 @@ body {
     color: #FFFFFF;
 }
 
-.season2021Watch1Text>span
-{
+.season2021Watch1Text>span {
     text-transform: uppercase;
 }
 
-.season2021WatchPrice
-{
+.season2021WatchPrice {
     font-size: 16px;
     line-height: 21px;
 }
 
-.season2021img2
-{
+.season2021img2 {
     display: flex;
     flex-direction: column;
 }
-.season2021Watch2
-{
+
+.season2021Watch2 {
     background: #191B1C url(../img/62050\ 2.png) no-repeat center;
     width: 260px;
     height: 325px;
 }
 
-.season2021Watch2Text
-{
+.season2021Watch2Text {
     width: 140px;
     margin-top: 25px;
     font-family: 'PlayfairDisplay';
@@ -297,20 +287,18 @@ body {
     color: #FFFFFF;
 }
 
-.season2021img3
-{
+.season2021img3 {
     display: flex;
     flex-direction: column;
 }
-.season2021Watch3
-{
+
+.season2021Watch3 {
     background: #191B1C url(../img/62050\ 3.png) no-repeat center;
     width: 260px;
     height: 325px;
 }
 
-.season2021Watch3Text
-{
+.season2021Watch3Text {
     width: 140px;
     margin-top: 25px;
     font-family: 'PlayfairDisplay';
@@ -401,8 +389,7 @@ body {
     margin-top: 40px;
 }
 
-.oldCollectionText
-{
+.oldCollectionText {
     width: 628px;
     margin-top: 40px;
     font-family: 'PT Sans';
@@ -431,8 +418,7 @@ body {
 
 
 /* newArrivalsBlock */
-.newArrivalsBlock
-{
+.newArrivalsBlock {
     background: #000000;
     height: 1289px;
     display: flex;
@@ -440,8 +426,7 @@ body {
     align-items: center;
 }
 
-.newArrivalsHeader
-{
+.newArrivalsHeader {
     margin-top: 120px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
@@ -450,16 +435,14 @@ body {
     color: #FFFFFF;
 }
 
-.newArrivalsHorLine
-{
+.newArrivalsHorLine {
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
     margin-top: 40px;
 }
 
-.newArrivalsPriceBlock
-{
+.newArrivalsPriceBlock {
     width: 1109px;
     margin-top: 81px;
     position: relative;
@@ -468,8 +451,7 @@ body {
     flex-wrap: wrap;
 }
 
-.newArrivalsImageBlock
-{
+.newArrivalsImageBlock {
     width: 260px;
     height: 405px;
     display: flex;
@@ -477,8 +459,7 @@ body {
     justify-content: space-between;
 }
 
-.newArrivalsGrey
-{
+.newArrivalsGrey {
     background: #191B1C;
     width: 100%;
     height: 325px;
@@ -487,22 +468,19 @@ body {
     align-items: center;
 }
 
-.newArrivalsPrice
-{
+.newArrivalsPrice {
     font-family: 'PlayfairDisplay';
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
 }
 
-.newArrivalsPrice>span
-{
+.newArrivalsPrice>span {
     font-size: 16px;
     line-height: 21px;
 }
 
-.seeMoreBlock
-{
+.seeMoreBlock {
     background: rgba(25, 27, 28, 0.5);
     width: 260px;
     height: 325px;
@@ -511,8 +489,7 @@ body {
     bottom: 80px;
 }
 
-.seeMoreBtn
-{
+.seeMoreBtn {
     background: none;
     border: 1px solid #FFFFFF;
     width: 186px;
@@ -528,15 +505,13 @@ body {
 
 
 /* useful-info-block */
-.useful-info-block
-{
+.useful-info-block {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.useful-info_header
-{
+.useful-info_header {
     margin-top: 63px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
@@ -545,38 +520,33 @@ body {
     color: #FFFFFF;
 }
 
-.useful-info_horLine
-{
+.useful-info_horLine {
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
     margin-top: 36px;
 }
 
-.useful-info_imagesText
-{
+.useful-info_imagesText {
     width: 100%;
     margin-top: 57px;
     display: flex;
     flex-direction: column;
 }
 
-.useful-info_imgBlock
-{
+.useful-info_imgBlock {
     width: 100%;
     margin-bottom: 30px;
     display: flex;
 }
 
-.useful-infoImg_1
-{
+.useful-infoImg_1 {
     background: url(../img/ROGER\ DUBUIS.png) no-repeat;
     width: 53.8%;
     height: 437px;
 }
 
-.useful-infoText_1
-{
+.useful-infoText_1 {
     width: 49.7%;
     display: flex;
     flex-direction: column;
@@ -585,8 +555,7 @@ body {
     color: #ffffff;
 }
 
-.useful-infoText_header
-{
+.useful-infoText_header {
     width: 68.8%;
     margin-top: 53px;
     font-family: 'PT Sans';
@@ -597,8 +566,7 @@ body {
     color: #FFFFFF;
 }
 
-.useful-infoText
-{
+.useful-infoText {
     width: 68.8%;
     margin-top: 14px;
     font-family: 'PT Sans';
@@ -608,16 +576,14 @@ body {
     color: #FFFFFF;
 }
 
-.useful-info_links
-{
+.useful-info_links {
     width: 68.8%;
     margin-top: 39px;
     display: flex;
     justify-content: space-between;
 }
 
-.read
-{
+.read {
     background: none;
     border: 1px solid #FFFFFF;
     width: 129px;
@@ -633,14 +599,12 @@ body {
     color: #FFFFFF;
 }
 
-.links-block
-{
+.links-block {
     display: flex;
     align-items: flex-end;
 }
 
-.links
-{
+.links {
     margin-left: 15px;
     text-decoration: none;
     font-family: 'PT Sans';
@@ -651,21 +615,18 @@ body {
     color: #FFFFFF;
 }
 
-.links:hover
-{
+.links:hover {
     text-decoration: none;
     color: #969696;
 }
 
-.useful-infoImg_2
-{
+.useful-infoImg_2 {
     background: url(../img/luxWatch.png) no-repeat;
     width: 53.8%;
     height: 437px;
 }
 
-.useful-infoImg_3
-{
+.useful-infoImg_3 {
     background: url(../img/TISSOT\ PRS.png) no-repeat;
     width: 53.8%;
     height: 437px;
@@ -674,15 +635,15 @@ body {
 
 
 /* partners-block */
-.partners-block
-{
+.partners-block {
+    height: 540px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.partners_header
-{
+.partners_header {
+    margin-top: 80px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
     line-height: 48px;
@@ -690,43 +651,193 @@ body {
     color: #FFFFFF;
 }
 
-.partners_Horline
-{
+.partners_Horline {
+    border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    border: 1px solid #FFFFFF;
+    margin-top: 22px;
 }
 
-.partners_logo-block
-{
+.partners_logo-block {
+    margin-top: 66px;
     display: flex;
     column-gap: 30px;
 }
 
-.partners-logo_1
-{
+.partners-logo_1 {
     background: url(../img/COCO.png) no-repeat center;
     width: 369px;
     height: 152px;
 }
 
-.partners-logo_2
-{
+.partners-logo_2 {
     background: url(../img/Rolex.png) no-repeat center;
     width: 279px;
     height: 185px;
 }
 
-.partners-logo_3
-{
+.partners-logo_3 {
     background: url(../img/Breguet.png) no-repeat center;
     width: 271px;
     height: 170px;
 }
 
-.partners-logo_4
-{
+.partners-logo_4 {
     background: url(../img/Haven.png) no-repeat center;
     width: 376px;
     height: 153px;
+}
+
+
+
+/* bottom-block */
+.bottom-block {
+    background: url(../img/Rectangle\ 15.png) no-repeat center;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-block_about {
+    width: 347px;
+}
+
+.bottom-about_header {
+    font-family: 'PlayfairDisplay';
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bottom-about_article {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #FFFFFF;
+}
+
+.bottom-block_categories {
+    width: 372px;
+}
+
+.bottom-categories_header {
+    font-family: 'PlayfairDisplay';
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bottom-categories_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.categories-btn {
+    background: #000000;
+    height: 41px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    color: #D0D0D0;
+}
+
+.cat-btn-1 {
+    width: 105px;
+}
+
+.cat-btn-2 {
+    width: 91px;
+}
+
+.cat-btn-3 {
+    width: 83px;
+}
+
+.cat-btn-4 {
+    width: 143px;
+}
+
+.cat-btn-5 {
+    width: 131px;
+}
+
+.cat-btn-6 {
+    width: 96px;
+}
+
+.bottom-block_mailing {
+    width: 352px;
+}
+
+.bottom-mailing_header {
+    font-family: 'PlayfairDisplay';
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bottom-mailing_text {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #FFFFFF;
+}
+
+.signup_yourmail {
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    width: 210px;
+    height: 42px;
+}
+
+::placeholder {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+::-ms-input-placeholder {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.signup_button {
+    background: #000000;
+    border: none;
+    width: 137px;
+    height: 42px;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
