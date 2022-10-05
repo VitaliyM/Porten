@@ -508,17 +508,19 @@ body {
     height: 325px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 80px;
 }
 
 .seeMoreBtn
 {
     background: none;
+    border: 1px solid #FFFFFF;
     width: 186px;
     height: 48px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
     line-height: 24px;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -535,7 +537,7 @@ body {
 
 .useful-info_header
 {
-    font-family: 'Playfair Display';
+    font-family: 'PlayfairDisplay';
     font-size: 36px;
     line-height: 48px;
     text-transform: uppercase;
