@@ -513,6 +513,7 @@ body {
 
 .seeMoreBtn
 {
+    background: none;
     width: 186px;
     height: 48px;
     font-family: 'PlayfairDisplay';
@@ -548,10 +549,105 @@ body {
     border: 1px solid #FFFFFF;
 }
 
-.useful-info-imagesText
+.useful-info_imagesText
 {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
+.useful-info_imgBlock
+{
+    width: 100%;
+    display: flex;
+}
+
+.useful-infoImg_1
+{
+    background: url(../img/ROGER\ DUBUIS.png) no-repeat;
+    width: 989px;
+    height: 437px;
+}
+
+.useful-infoText_1
+{
+    width: 628px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans';
+    color: #ffffff;
+}
+
+.useful-infoText_header
+{
+    font-family: 'PT Sans';
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.useful-infoText
+{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    color: #FFFFFF;
+}
+
+.useful-info_links
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read
+{
+    background: none;
+    border: 1px solid #FFFFFF;
+    width: 129px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.links-block
+{
+    display: flex;
+}
+
+.links
+{
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* .links:hover
+{
+    text-decoration: none;
+} */
+
+.useful-infoImg_2
+{
+    background: url(../img/luxWatch.png) no-repeat;
+}
+
+.useful-infoImg_3
+{
+    background: url(../img/TISSOT\ PRS.png) no-repeat;
+}
