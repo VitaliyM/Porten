@@ -462,6 +462,7 @@ body {
 {
     width: 1109px;
     margin-top: 81px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -499,3 +500,58 @@ body {
     font-size: 16px;
     line-height: 21px;
 }
+
+.seeMoreBlock
+{
+    background: rgba(25, 27, 28, 0.5);
+    width: 260px;
+    height: 325px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.seeMoreBtn
+{
+    width: 186px;
+    height: 48px;
+    font-family: 'PlayfairDisplay';
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+
+/* useful-info-block */
+.useful-info-block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.useful-info_header
+{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.useful-info_horLine
+{
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.useful-info-imagesText
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
