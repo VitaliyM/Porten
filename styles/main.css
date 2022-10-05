@@ -532,11 +532,12 @@ body {
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .useful-info_header
 {
+    margin-top: 63px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
     line-height: 48px;
@@ -546,14 +547,16 @@ body {
 
 .useful-info_horLine
 {
+    border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    border: 1px solid #FFFFFF;
+    margin-top: 36px;
 }
 
 .useful-info_imagesText
 {
     width: 100%;
+    margin-top: 57px;
     display: flex;
     flex-direction: column;
 }
@@ -561,19 +564,20 @@ body {
 .useful-info_imgBlock
 {
     width: 100%;
+    margin-bottom: 30px;
     display: flex;
 }
 
 .useful-infoImg_1
 {
     background: url(../img/ROGER\ DUBUIS.png) no-repeat;
-    width: 989px;
+    width: 53.8%;
     height: 437px;
 }
 
 .useful-infoText_1
 {
-    width: 628px;
+    width: 49.7%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -583,6 +587,8 @@ body {
 
 .useful-infoText_header
 {
+    width: 628px;
+    margin-top: 53px;
     font-family: 'PT Sans';
     font-size: 18px;
     line-height: 23px;
@@ -593,6 +599,8 @@ body {
 
 .useful-infoText
 {
+    width: 68.8%;
+    margin-top: 14px;
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
@@ -602,6 +610,8 @@ body {
 
 .useful-info_links
 {
+    width: 628px;
+    margin-top: 39px;
     display: flex;
     justify-content: space-between;
 }
@@ -626,10 +636,12 @@ body {
 .links-block
 {
     display: flex;
+    align-items: flex-end;
 }
 
 .links
 {
+    margin-left: 15px;
     text-decoration: none;
     font-family: 'PT Sans';
     font-size: 18px;
