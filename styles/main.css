@@ -35,6 +35,7 @@ body {
 }
 
 .scheduleBlock {
+    margin-left: 21.2%;
     display: flex;
     align-items: center;
     font-family: 'PT Sans';
@@ -45,20 +46,30 @@ body {
 
 .phoneNumber {
     background: url(../img/phone.png) no-repeat 0 center;
-    width: 150px;
+    width: 123px;
     display: flex;
     justify-content: flex-end;
+    letter-spacing: 0.2px;
 }
 
 .vetricalLine {
     background: #969696;
     width: 2px;
-    height: 9px;
-    margin-left: 15px;
-    margin-right: 15px;
+    height: 11px;
+    margin-left: 12px;
+    margin-right: 11px;
 }
 
+.work-time
+{
+    margin-left: 3px;
+    letter-spacing: 0.3px;
+}
+
+
+
 .signInBlock {
+    margin-right: 21.1%;
     display: flex;
     justify-content: center;
     font-family: 'PT Sans';
@@ -69,8 +80,14 @@ body {
 
 .signIn {
     background: url(../img/log-in.png) no-repeat 0 center;
-    width: 40px;
+    width: 56px;
+    margin-right: 5px;
     text-align: end;
+}
+
+.registerNow
+{
+    margin-left: 2px;
 }
 
 .registerNow:hover,
@@ -82,9 +99,10 @@ body {
 /* menuBlock */
 
 .menuBlock {
-    background: #0F0F0F url(../img/PORTEN.png) no-repeat 55px center;
+    background: #0F0F0F url(../img/PORTEN.png) no-repeat 22.3% center;
     height: 80px;
     display: flex;
+    padding-right: 20.5%;
     justify-content: flex-end;
     font-family: 'PT Sans';
     font-size: 14px;
@@ -114,7 +132,7 @@ body {
 
 .menuBlockCabinet {
     padding-left: 17px;
-    padding-right: 17px;
+    padding-right: 14px;
 }
 
 .menuBlockSetting {
@@ -150,7 +168,6 @@ body {
     background: url(../img/header-bg.png) no-repeat center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: 810px;
@@ -160,6 +177,7 @@ body {
     border: 4px solid #ffffff;
     width: 320px;
     height: 320px;
+    margin-top: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,20 +185,24 @@ body {
 }
 
 .shopsLogoHeader {
+    margin-top: -2px;
     font-family: 'PostNoBillsJaffna';
     font-weight: 700;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 65px;
     color: #FFFFFF;
+    letter-spacing: 1.3px;
 }
 
 .shopsLogoHorLine {
+    border: 2px solid #FFFFFF;
     width: 179px;
     height: 0px;
-    border: 2px solid #FFFFFF;
+    margin-top: -1px;
 }
 
 .shopsLogoText {
+    margin-top: 5px;
     font-family: 'PT Sans';
     font-size: 22px;
     line-height: 28px;
@@ -190,6 +212,7 @@ body {
 
 .shopsText {
     width: 730px;
+    margin-top: 81px;
     font-family: 'PT Sans';
     font-size: 16px;
     line-height: 150%;
@@ -222,13 +245,14 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 36px;
+    letter-spacing: 1.1px;
 }
 
 .season2021HorLine {
     width: 120px;
     height: 0px;
     border: 1px solid #FFFFFF;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -244,17 +268,17 @@ body {
 }
 
 .season2021Watch1 {
-    background: #191B1C url(../img/62050\ 1.png) no-repeat center;
+    background: #191B1C url(../img/62050\ 1.png) no-repeat center 26px;
     width: 260px;
     height: 325px;
 }
 
 .season2021Watch1Text {
     width: 140px;
-    margin-top: 25px;
+    margin-top: 20px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
-    line-height: 24px;
+    line-height: 33px;
     color: #FFFFFF;
 }
 
@@ -273,17 +297,17 @@ body {
 }
 
 .season2021Watch2 {
-    background: #191B1C url(../img/62050\ 2.png) no-repeat center;
+    background: #191B1C url(../img/62050\ 2.png) no-repeat center 26px;
     width: 260px;
     height: 325px;
 }
 
 .season2021Watch2Text {
     width: 140px;
-    margin-top: 25px;
+    margin-top: 20px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
-    line-height: 24px;
+    line-height: 32px;
     color: #FFFFFF;
 }
 
@@ -293,18 +317,23 @@ body {
 }
 
 .season2021Watch3 {
-    background: #191B1C url(../img/62050\ 3.png) no-repeat center;
+    background: #191B1C url(../img/62050\ 3.png) no-repeat center 26px;
     width: 260px;
     height: 325px;
 }
 
 .season2021Watch3Text {
-    width: 140px;
-    margin-top: 25px;
+    width: 120px;
+    margin-top: 20px;
     font-family: 'PlayfairDisplay';
     font-size: 18px;
-    line-height: 24px;
+    line-height: 32px;
     color: #FFFFFF;
+}
+
+.season2021Watch3Text>span:nth-child(1)
+{
+    text-transform: uppercase;
 }
 
 
@@ -324,11 +353,12 @@ body {
 }
 
 .newCollectionHeader {
-    margin-bottom: 30px;
+    margin-bottom: 19px;
     font-family: 'PlayfairDisplay';
     color: #ffffff;
     text-transform: uppercase;
     font-size: 36px;
+    letter-spacing: 1.8px;
 }
 
 .newCollectionHorLine {
@@ -357,18 +387,20 @@ body {
 
 /* oldCollectionBlock */
 .oldCollectionBlock {
-    height: 600px;
     display: flex;
 }
 
 .oldCollectionImg {
     background: url(../img/Collection2018.png) no-repeat center;
-    width: 48%;
+    height: 600px;
+    width: 49.5%;
 }
 
 .oldCollectionArticle {
     background: #000000;
     width: 52%;
+    height: 600px;
+    padding-right: 56px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,12 +418,13 @@ body {
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    margin-top: 40px;
+    margin-top: 29px;
 }
 
 .oldCollectionText {
-    width: 628px;
-    margin-top: 40px;
+    width: 636px;
+    margin-top: 41px;
+    margin-left: 15px;
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
@@ -406,7 +439,8 @@ body {
     border-radius: 0;
     width: 298px;
     height: 47px;
-    margin-top: 64px;
+    margin-top: 67px;
+    padding-left: 3px;
     font-family: 'PT Sans';
     font-size: 18px;
     line-height: 23px;
@@ -487,6 +521,9 @@ body {
     position: absolute;
     right: 0;
     bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .seeMoreBtn {
@@ -600,7 +637,10 @@ body {
 }
 
 .links-block {
+    width: 71%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     align-items: flex-end;
 }
 
@@ -840,4 +880,19 @@ body {
     /* identical to box height, or 21px */
     letter-spacing: 0.05em;
     color: #FFFFFF;
+}
+
+
+
+
+footer
+{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PT Sans';
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
 }
