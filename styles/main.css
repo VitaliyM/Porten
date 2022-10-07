@@ -467,13 +467,14 @@ body {
     line-height: 48px;
     text-transform: uppercase;
     color: #FFFFFF;
+    letter-spacing: 1.4px;
 }
 
 .newArrivalsHorLine {
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    margin-top: 40px;
+    margin-top: 39px;
 }
 
 .newArrivalsPriceBlock {
@@ -488,6 +489,7 @@ body {
 .newArrivalsImageBlock {
     width: 260px;
     height: 405px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -498,6 +500,7 @@ body {
     width: 100%;
     height: 325px;
     display: flex;
+    padding-bottom: 7px;
     justify-content: center;
     align-items: center;
 }
@@ -505,7 +508,7 @@ body {
 .newArrivalsPrice {
     font-family: 'PlayfairDisplay';
     font-size: 18px;
-    line-height: 24px;
+    line-height: 29px;
     color: #FFFFFF;
 }
 
@@ -520,7 +523,7 @@ body {
     height: 325px;
     position: absolute;
     right: 0;
-    bottom: 80px;
+    bottom: 119px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -550,18 +553,20 @@ body {
 
 .useful-info_header {
     margin-top: 63px;
+    margin-left: -26px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
     line-height: 48px;
     text-transform: uppercase;
     color: #FFFFFF;
+    letter-spacing: 1.2px;
 }
 
 .useful-info_horLine {
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    margin-top: 36px;
+    margin-top: 35px;
 }
 
 .useful-info_imagesText {
@@ -573,7 +578,7 @@ body {
 
 .useful-info_imgBlock {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     display: flex;
 }
 
@@ -584,7 +589,7 @@ body {
 }
 
 .useful-infoText_1 {
-    width: 49.7%;
+    width: 50.7%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -603,9 +608,21 @@ body {
     color: #FFFFFF;
 }
 
+.useful-header2
+{
+    margin-top: 48px;
+}
+
+.useful-header3
+{
+    margin-top: 52px;
+}
+
+
+
 .useful-infoText {
     width: 68.8%;
-    margin-top: 14px;
+    margin-top: 15px;
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
@@ -616,6 +633,7 @@ body {
 .useful-info_links {
     width: 68.8%;
     margin-top: 39px;
+    padding-right: 11px;
     display: flex;
     justify-content: space-between;
 }
@@ -645,7 +663,7 @@ body {
 }
 
 .links {
-    margin-left: 15px;
+    margin-left: 14px;
     text-decoration: none;
     font-family: 'PT Sans';
     font-size: 18px;
@@ -676,26 +694,27 @@ body {
 
 /* partners-block */
 .partners-block {
-    height: 540px;
+    height: 515px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .partners_header {
-    margin-top: 80px;
+    margin-top: 62px;
     font-family: 'PlayfairDisplay';
     font-size: 36px;
     line-height: 48px;
     text-transform: uppercase;
     color: #FFFFFF;
+    letter-spacing: 1.5px;
 }
 
 .partners_Horline {
     border: 1px solid #FFFFFF;
     width: 120px;
     height: 0px;
-    margin-top: 22px;
+    margin-top: 44px;
 }
 
 .partners_logo-block {
@@ -708,6 +727,7 @@ body {
     background: url(../img/COCO.png) no-repeat center;
     width: 369px;
     height: 152px;
+    margin-top: 26px;
 }
 
 .partners-logo_2 {
@@ -720,12 +740,14 @@ body {
     background: url(../img/Breguet.png) no-repeat center;
     width: 271px;
     height: 170px;
+    margin-top: 8px;
 }
 
 .partners-logo_4 {
     background: url(../img/Haven.png) no-repeat center;
     width: 376px;
     height: 153px;
+    margin-top: 25px;
 }
 
 
@@ -733,12 +755,15 @@ body {
 /* bottom-block */
 .bottom-block {
     background: url(../img/Rectangle\ 15.png) no-repeat center;
+    height: 448px;
+    padding-top: 78px;
+    padding-left: 21.1%;
     display: flex;
-    justify-content: center;
 }
 
 .bottom-block_about {
-    width: 347px;
+    width: 350px;
+    margin-right: 32px;
 }
 
 .bottom-about_header {
@@ -759,6 +784,7 @@ body {
 
 .bottom-block_categories {
     width: 372px;
+    margin-right: 7px;
 }
 
 .bottom-categories_header {
@@ -771,6 +797,7 @@ body {
 }
 
 .bottom-categories_buttons {
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 20px;
@@ -804,6 +831,7 @@ body {
 
 .cat-btn-4 {
     width: 143px;
+    margin-right: 9px;
 }
 
 .cat-btn-5 {
@@ -828,6 +856,7 @@ body {
 }
 
 .bottom-mailing_text {
+    margin-top: 42px;
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
@@ -835,11 +864,17 @@ body {
     color: #FFFFFF;
 }
 
+.signup
+{
+    margin-top: 24px;
+}
+
 .signup_yourmail {
     background: rgba(255, 255, 255, 0.4);
     border: none;
     width: 210px;
     height: 42px;
+    padding-left: 15px;
 }
 
 ::placeholder {
@@ -872,13 +907,14 @@ body {
 .signup_button {
     background: #000000;
     border: none;
-    width: 137px;
+    width: 133px;
     height: 42px;
+    padding-right: 5px;
     font-family: 'PT Sans';
-    font-size: 14px;
+    font-size: 17px;
     line-height: 150%;
     /* identical to box height, or 21px */
-    letter-spacing: 0.05em;
+    letter-spacing: 0.6px;
     color: #FFFFFF;
 }
 
@@ -888,6 +924,8 @@ body {
 footer
 {
     height: 50px;
+    padding-left: 21.1%;
+    padding-right: 21%;
     display: flex;
     justify-content: space-between;
     align-items: center;
