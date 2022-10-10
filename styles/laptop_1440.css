@@ -1,0 +1,60 @@
+.scheduleBlock
+{
+    margin-left: 14%;
+}
+
+.signInBlock
+{
+    margin-right: 15%;
+}
+
+.menuBlock
+{
+    padding-right: 13%;
+    background-position: 15.3% center;
+}
+
+.season2021ImgBlock
+{
+    column-gap: 1.6%;
+    width: auto;
+}
+
+.season2021Watch1, .season2021Watch2, .season2021Watch3
+{
+    background-size: contain;
+    width: 200px;
+    height: 300px;
+}
+
+.oldCollectionArticle
+{
+    height: inherit;
+    padding-right: 0;
+}
+
+.oldCollectionText
+{
+    width: 500px;
+}
+
+.partners_logo-block
+{
+    column-gap: 20px;
+}
+
+.partners-logo_1, .partners-logo_2, .partners-logo_3, .partners-logo_4
+{
+    background-size: contain;
+    width: 300px;
+}
+
+.bottom-block
+{
+    padding-left: 12%;
+}
+
+footer
+{
+    padding: 0 10%;
+}
