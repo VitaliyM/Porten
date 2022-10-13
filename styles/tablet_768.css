@@ -110,6 +110,27 @@
     right: 40px;
 }
 
+.useful-infoText_header
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.useful-header2
+{
+    margin-top: 30px;
+}
+
+.useful-header3
+{
+    margin-top: 0;
+}
+
+.useful-info_links
+{
+    flex-direction: column;
+}
+
 .partners-block
 {
     height: auto;
