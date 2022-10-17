@@ -98,9 +98,15 @@ body {
 
 /* menuBlock */
 
+.mobileNavBar
+{
+    display: none;
+}
+
 .menuBlock {
     background: #0F0F0F url(../img/PORTEN.png) no-repeat 22.3% center;
     height: 80px;
+    position: relative;
     display: flex;
     padding-right: 20.5%;
     justify-content: flex-end;
@@ -109,6 +115,11 @@ body {
     line-height: 18px;
     text-transform: uppercase;
     color: #969696;
+}
+
+.menuListBlock
+{
+    display: flex;
 }
 
 .menuList {

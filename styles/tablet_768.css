@@ -1,0 +1,78 @@
+.menuBlock
+{
+    background-position: 12% 15px;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 1;
+    overflow-y: hidden;
+}
+
+.mobileNavBar
+{
+    position: absolute;
+    right: 10%;
+    top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 40px;
+    transition: all 0.1s ease-in;
+}
+
+.mobileNavBar:hover
+{
+    border: 3px solid #ffffff;
+}
+
+.mobileNavBar:active
+{
+    top: 11px;
+}
+
+.navBarLine
+{
+    border: 2px solid #FFFFFF;
+    width: 30px;
+    height: 0;
+    margin-bottom: 3px;
+}
+
+.menuListBlock
+{
+    height: 0;
+    flex-direction: column;
+    transition: all 0.2s ease-in;
+}
+
+.menuListHeight
+{
+    height: 225px;
+    transition: all 0.2s ease-in;
+}
+
+.menuList
+{
+    height: 45px;
+    width: 170px;
+    justify-content: flex-end;
+}
+
+.menuBlockCart, .menuBlockSearch
+{
+    width: 170px;
+    background-position: 130px center;
+}
+
+.menuBlockCart:hover, .menuBlockSearch:hover {
+    width: 170px;
+    background-position: 130px center;
+}
