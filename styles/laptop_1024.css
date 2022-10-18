@@ -1,144 +1,128 @@
-.scheduleBlock
-{
+.scheduleBlock {
     margin-left: 10%;
 }
 
-.signInBlock
-{
+.signInBlock {
     margin-right: 10%;
 }
 
-.menuBlock 
-{
+.menuBlock {
     padding-right: 8%;
     background-position: 11% center;
 }
 
-.seasonsCollectionBlock
-{
+.seasonsCollectionBlock {
     height: 600px;
 }
 
-.season2021Header
-{
+.season2021Header {
     margin-top: 60px;
 }
 
-.season2021Watch1, .season2021Watch2, .season2021Watch3
-{
+.season2021Watch1,
+.season2021Watch2,
+.season2021Watch3 {
     width: 150px;
     height: 250px;
 }
 
-.oldCollectionBlock
-{
+.oldCollectionBlock {
     height: 550px;
 }
 
-.oldCollectionImg
-{
+.oldCollectionImg {
     width: 48%;
     height: inherit;
 }
 
-.oldCollectionHeader
-{
+.oldCollectionHeader {
     margin-top: 60px;
 }
 
-.oldCollectionText
-{
+.oldCollectionText {
     width: 440px;
     margin-top: 30px;
     margin-left: 10px;
     font-size: 14px;
 }
 
-.oldCollectionBtn
-{
+.oldCollectionBtn {
     margin-top: 35px;
 }
 
-.newArrivalsBlock
-{
+.newArrivalsBlock {
     height: auto;
 }
 
-.newArrivalsHeader
-{
+.newArrivalsHeader {
     margin-top: 80px;
 }
 
-.newArrivalsPriceBlock
-{
+.newArrivalsPriceBlock {
     margin-top: 50px;
     width: 82%;
     justify-content: center;
     column-gap: 2%;
 }
 
-.seeMoreBlock
-{
+.seeMoreBlock {
     right: 152px;
 }
 
-.useful-infoImg_1, .useful-infoImg_2, .useful-infoImg_3
-{
+.useful-infoImg_1,
+.useful-infoImg_2,
+.useful-infoImg_3 {
     background-position: -150px 0;
 }
 
-.useful-info_links
-{
+.useful-info_links {
     align-items: flex-end;
 }
 
-.partners-logo_1, .partners-logo_2, .partners-logo_3, .partners-logo_4
-{
+.partners-logo_1,
+.partners-logo_2,
+.partners-logo_3,
+.partners-logo_4 {
     width: 220px;
 }
 
-.bottom-block
-{
+.bottom-block {
     padding-left: 15px;
     padding-right: 15px;
     justify-content: center;
     padding-top: 60px;
 }
 
-.bottom-block_about
-{
+.bottom-block_about {
     width: 320px;
     margin-right: 15px;
 }
 
-.bottom-about_header, .bottom-categories_header, .bottom-mailing_header
-{
+.bottom-about_header,
+.bottom-categories_header,
+.bottom-mailing_header {
     font-size: 20px;
 }
 
-.bottom-about_article, .bottom-mailing_text
-{
+.bottom-about_article,
+.bottom-mailing_text {
     margin-top: 25px;
     font-size: 12px;
 }
 
-.bottom-block_categories
-{
+.bottom-block_categories {
     width: 300px;
     margin-right: 15px;
 }
 
-.bottom-categories_buttons
-{
+.bottom-categories_buttons {
     margin-top: 30px;
 }
 
-.bottom-block_mailing
-{
+.bottom-block_mailing {
     width: 320px;
 }
 
-.signup_button
-{
+.signup_button {
     width: 211px;
 }

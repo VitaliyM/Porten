@@ -25,13 +25,11 @@ body {
     background: #000000;
 }
 
-button:hover
-{
+button:hover {
     cursor: pointer;
 }
 
-button:active
-{
+button:active {
     background: #969696;
 }
 
@@ -70,8 +68,7 @@ button:active
     margin-right: 11px;
 }
 
-.work-time
-{
+.work-time {
     margin-left: 3px;
     letter-spacing: 0.3px;
 }
@@ -95,8 +92,7 @@ button:active
     text-align: end;
 }
 
-.registerNow
-{
+.registerNow {
     margin-left: 2px;
 }
 
@@ -107,9 +103,7 @@ button:active
 }
 
 /* menuBlock */
-
-.mobileNavBar
-{
+.mobileNavBar {
     display: none;
 }
 
@@ -127,13 +121,11 @@ button:active
     color: #969696;
 }
 
-.menuListBlock
-{
+.menuListBlock {
     display: flex;
 }
 
 .menuList {
-    /* outline: 1px solid #FFFFFF; */
     display: flex;
     align-items: center;
     height: 100%;
@@ -237,7 +229,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 16px;
     line-height: 150%;
-    /* or 24px */
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
@@ -353,13 +344,9 @@ button:active
     color: #FFFFFF;
 }
 
-.season2021Watch3Text>span:nth-child(1)
-{
+.season2021Watch3Text>span:nth-child(1) {
     text-transform: uppercase;
 }
-
-
-
 
 
 
@@ -450,7 +437,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* or 21px */
     text-align: center;
     color: #FFFFFF;
 }
@@ -630,13 +616,11 @@ button:active
     color: #FFFFFF;
 }
 
-.useful-header2
-{
+.useful-header2 {
     margin-top: 48px;
 }
 
-.useful-header3
-{
+.useful-header3 {
     margin-top: 52px;
 }
 
@@ -648,7 +632,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* or 21px */
     color: #FFFFFF;
 }
 
@@ -801,7 +784,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* or 21px */
     color: #FFFFFF;
 }
 
@@ -814,7 +796,6 @@ button:active
     font-family: 'PlayfairDisplay';
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height */
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -836,17 +817,14 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* identical to box height, or 21px */
     color: #D0D0D0;
 }
 
-.categories-btn:hover
-{
+.categories-btn:hover {
     cursor: pointer;
 }
 
-.categories-btn:active
-{
+.categories-btn:active {
     color: #ffffff;
     font-weight: bold;
 }
@@ -884,7 +862,6 @@ button:active
     font-family: 'PlayfairDisplay';
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height */
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -894,12 +871,10 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* or 21px */
     color: #FFFFFF;
 }
 
-.signup
-{
+.signup {
     margin-top: 24px;
 }
 
@@ -915,7 +890,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* identical to box height, or 21px */
     letter-spacing: 0.05em;
     color: #ffffff;
 }
@@ -924,7 +898,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* identical to box height, or 21px */
     letter-spacing: 0.05em;
     color: #ffffff;
 }
@@ -933,7 +906,6 @@ button:active
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 150%;
-    /* identical to box height, or 21px */
     letter-spacing: 0.05em;
     color: #ffffff;
 }
@@ -952,20 +924,17 @@ button:active
     transition: background 0.1s ease-in;
 }
 
-.signup_button:hover
-{
+.signup_button:hover {
     cursor: pointer;
 }
 
-.signup_button:active
-{
+.signup_button:active {
     background: #969696;
     font-weight: bold;
 }
 
 
-footer
-{
+footer {
     height: 50px;
     padding-left: 21.1%;
     padding-right: 21%;
