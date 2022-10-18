@@ -1,0 +1,78 @@
+.shopsText
+{
+    width: 85%;
+}
+
+.seasonsCollectionBlock
+{
+    height: auto;
+    flex-direction: column-reverse;
+}
+
+.season2021Block
+{
+    width: 100%;
+    height: auto;
+}
+
+.season2021Watch1, .season2021Watch2, .season2021Watch3
+{
+    width: 215px;
+    height: 264px;
+}
+
+.newCollectionBlock
+{
+    width: 100%;
+    height: 400px;
+}
+
+.season2021img1, .season2021img2, .season2021img3
+{
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.oldCollectionBlock
+{
+    height: auto;
+}
+
+.oldCollectionBtn
+{
+    margin-bottom: 40px;
+}
+
+.useful-info_header
+{
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+
+.bottom-block
+{
+    background-size: cover;
+    background-position: center 0;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.bottom-block_about, .bottom-block_categories, .bottom-block_mailing
+{
+    width: 85%;
+}
+
+.signup_button
+{
+    margin-bottom: 40px;
+}
+
+footer
+{
+    padding: 0 2%;
+}

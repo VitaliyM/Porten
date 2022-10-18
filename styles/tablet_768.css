@@ -1,3 +1,13 @@
+.vetricalLine, .work-time, .work_days
+{
+    display: none;
+}
+
+.scheduleBlock
+{
+    margin-left: 9%;
+}
+
 .menuBlock
 {
     background-position: 11% 17px;
@@ -74,4 +84,95 @@
 {
     background-position: 135px center;
     width: 166px;
+}
+
+.season2021HorLine
+{
+    margin-bottom: 30px;
+}
+
+.season2021ImgBlock
+{
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.season2021img1, .season2021img2, .season2021img3
+{
+    flex-direction: row;
+}
+
+.season2021Watch1, .season2021Watch2, .season2021Watch3
+{
+    background-position: center 5px;
+    width: 90px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.oldCollectionImg
+{
+    display: none;
+}
+
+.oldCollectionArticle
+{
+    background: url(../img/Collection2018.png) no-repeat center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.oldCollectionText
+{
+    width: 90%;
+}
+
+.seeMoreBlock
+{
+    right: 49px;
+}
+
+.useful-info_imgBlock
+{
+    margin-bottom: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.useful-infoImg_1, .useful-infoImg_2, .useful-infoImg_3
+{
+    width: 100%;
+    height: 340px;
+    background-position: center;
+}
+
+.useful-infoText_1
+{
+    width: 85%;
+}
+
+.useful-infoText_header
+{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.useful-infoText, .useful-info_links
+{
+    width: 100%;
+}
+
+.partners-block
+{
+    height: auto;
+}
+
+.partners_logo-block
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    column-gap: 8%;
+    justify-content: center;
 }
