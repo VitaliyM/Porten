@@ -45,6 +45,12 @@
     text-align: center;
 }
 
+.newArrivalsHeader
+{
+    width: 100%;
+    text-align: center;
+}
+
 .bottom-block {
     background-size: cover;
     background-position: center 0;
