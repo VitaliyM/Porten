@@ -16,4 +16,12 @@ seeMore.addEventListener('click', function(){
     arrivalsBlock.style.height = 'auto';
     let cloneNewArrivals = newArrivalsPriceBlock.cloneNode(true);
     newArrivalsPriceBlock.after(cloneNewArrivals);
-})
+});
+
+
+let menuBlockSearch = document.querySelector('.menuBlockSearch');
+let searchForm = document.querySelector('.search-form');
+let searchPlaceholder = document.querySelector('.search-placeholder');
+menuBlockSearch.addEventListener('click', function(){
+    searchPlaceholder.classList.add('search-placeholder-visible');
+});

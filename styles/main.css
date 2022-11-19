@@ -166,11 +166,33 @@ button:active {
 .menuBlockSearch {
     background: url(../img/gridicons_search.png) no-repeat center;
     width: 55px;
+    position: relative;
 }
 
 .menuBlockSearch:hover {
     background: #1F1F1F url(../img/gridicons_search.png) no-repeat center;
     width: 55px;
+}
+
+.search-form
+{
+    background: #1F1F1F;
+    position: absolute;
+    right: 53px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in;
+}
+
+.search-placeholder
+{
+    display: none;
+}
+
+.search-placeholder-visible
+{
+    display: block;
 }
 
 
